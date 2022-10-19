@@ -1,10 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-    background: linear-gradient(to right, #f3f0f0, #eeee62) !important;
-    
+    background: linear-gradient(to right, #242423, #373636) !important;
+
 }
-.bg-gradient {  
-    background: linear-gradient(to right, #050505, #aeb3af) !important;
+.bg-gradient {
+    background: linear-gradient(to right, #44453b, #515047) !important;
 }
 #ul {
     list-style-type: none;

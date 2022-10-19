@@ -1,4 +1,4 @@
- <p>Agregados: {{seleccionados.length}}</p>
+ <p class="text-white">Obras Seleccionadas: {{seleccionados.length}}</p>
 <div class="row">
     <div class="col-md-6" *ngFor="let curso of elementos">
     <app-centro [curso]="curso" (pressButton)="selecc($event)" ></app-centro>

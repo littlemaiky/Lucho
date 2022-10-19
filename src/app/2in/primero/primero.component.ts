@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PrimeroComponent implements OnInit {
 
-  currentbeverage = "abner";
-  beverages= ["orlando","juan","pedro"];
+  currentbeverage = " ";
+  beverages= [];
 
   addBeverage(newBeverage: string){
     this.beverages.push(newBeverage);

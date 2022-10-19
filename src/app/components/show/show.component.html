@@ -1,20 +1,19 @@
 <div class="row align-items-md-stretch">
   <div class="col-md-12">
-    <div class="h-100 p-4 text-white bg-gradient rounded-3 text-center">
-      <h3>INTERFAZ</h3>            
-      <img src="../assets/img/clipart982505.png" width="100" height="100">        
+    <div class="h-100 p-4 text-white  rounded-3 text-center">
+      <img src="../assets/img/url.png">
     </div>
   </div>
 
 
 
 <div class="d-grid gap-2 mt-4">
-    <a routerLink="/create" class="btn btn-primary" type="button">INSERTAR</a>    
+    <a routerLink="/create" class="btn btn-dark" type="button">INSERTAR</a>
 </div>
 
 <table class="table table-hover table-striped">
     <thead class="bg-gradient text-white">
-      <tr>        
+      <tr>
         <th>Nombre</th>
         <th>Apellido</th>
         <th>Edad</th>
@@ -22,11 +21,11 @@
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let post of Posts">        
+      <tr *ngFor="let post of Posts">
         <td>{{ post.title }}</td>
         <td>{{ post.content }}</td>
         <td>{{ post.author }}</td>
-        <td>          
+        <td>
           <button routerLink="/edit/{{post.id}}" class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button>
           <button (click)="deleteRecord(post)" class="btn btn-outline-danger"><i class="fa-solid fa-trash"></i></button>
           <button routerLink="/prueba/" class="btn btn-outline-secondary">Enviar</button>
@@ -34,4 +33,3 @@
       </tr>
     </tbody>
   </table>
-  
