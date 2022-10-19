@@ -1,5 +1,8 @@
 <div class="parent">
     <h2>ingresando(padre)</h2>
+    <ul>
+        <li *ngFor="let bev of beverages"> </li>
+    </ul>
 
     <app-segundo [beverage]="currentbeverage" (newBeverageEvent)="addBeverage($event)" ></app-segundo>
 </div>
