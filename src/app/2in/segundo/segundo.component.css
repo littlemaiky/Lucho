@@ -1,0 +1,23 @@
+.child{
+    border: 1px solid gray;
+    margin: 20px;
+    padding: 20px;
+}
+h2{
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+}
+button{
+    margin-left: 5px;
+    color: azure;
+    background-color: brown;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor:pointer;
+    font-size: 16px;
+}
+input{
+    height: 22px;
+}

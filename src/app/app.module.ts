@@ -18,6 +18,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { Prueba12Component } from './prueba12/prueba12.component';
 import { Prueba13Component } from './prueba13/prueba13.component';
 import { CentroComponent } from './centro/centro.component';
+import { PrimeroComponent } from './2in/primero/primero.component';
+import { SegundoComponent } from './2in/segundo/segundo.component';
 
 
 @NgModule({
@@ -29,6 +31,8 @@ import { CentroComponent } from './centro/centro.component';
     Prueba12Component,
     Prueba13Component,
     CentroComponent,
+    PrimeroComponent,
+    SegundoComponent,
     
   ],
   imports: [

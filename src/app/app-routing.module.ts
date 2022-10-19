@@ -7,6 +7,7 @@ import { CreateComponent } from './components/create/create.component';
 import { EditComponent } from './components/edit/edit.component';
 import { Prueba12Component } from './prueba12/prueba12.component';
 import { Prueba13Component } from './prueba13/prueba13.component';
+import { PrimeroComponent } from './2in/primero/primero.component';
 
 //creamos la constante para las Rutas
 const routes: Routes = [
@@ -14,7 +15,9 @@ const routes: Routes = [
   { path: 'create', component: CreateComponent},
   { path: 'edit/:id', component: EditComponent},
   { path: 'prueba', component: Prueba12Component},
-  { path: 'prueba2', component: Prueba13Component}
+  { path: 'prueba2', component: Prueba13Component},
+  { path: 'primero', component: PrimeroComponent}
+  
   
 ];
 
